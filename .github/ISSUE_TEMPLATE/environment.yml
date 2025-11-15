@@ -1,0 +1,51 @@
+name: "⚙️ Environment"
+description: "환경 설정 및 인프라 관련 작업"
+title: "⚙️ Environment: [파트명] ... 환경 설정"
+labels: ["environment"]
+body:
+  - type: textarea
+    attributes:
+      label: ⚙️ 설정 내용
+      description: 환경 설정 또는 인프라 관련 변경 내용을 작성해주세요.
+      value: |
+        아래 예시를 참고해 작성해주세요:
+        - 새로운 환경 변수(FIREBASE_API_KEY) 추가
+        - 프론트 배포 CDN 경로 수정
+        - 서버 로그 레벨(prod → warn) 조정
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: 🛠 해야 할 작업
+      description: 필요한 환경 설정 작업을 체크리스트로 작성해주세요.
+      value: |
+        예시:
+        - [ ] 환경 변수 추가 (.env)
+        - [ ] CI/CD 환경에 변수 반영
+        - [ ] 설정값 검증 테스트
+        - [ ] 문서 업데이트
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: 🧪 검증 방법
+      description: 설정이 제대로 적용되었는지 확인하는 방법을 작성해주세요.
+      value: |
+        예시:
+        - 서버 재기동 후 로그 레벨 확인
+        - 배포 후 CDN 경로 정상 로드 확인
+        - 환경 값 변경 시 기능 정상 동작 테스트
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: 🙋🏻 참고 자료
+      description: 참고 링크나 설정 문서가 있다면 작성해주세요.
+      value: |
+        예시:
+        - 관련 내부 README 링크
+        - Terraform/Helm 설정 파일 경로
+        - 인프라 구성도

@@ -1,0 +1,36 @@
+name: "📝 Docs"
+description: "문서 작업"
+title: "📝 Docs: [파트명] ... 문서 작성"
+labels: ["docs"]
+body:
+  - type: textarea
+    attributes:
+      label: 📄 문서 내용
+      description: 작성 또는 수정해야 할 문서 내용을 설명해주세요.
+      value: |
+        예시:
+        - API 문서 업데이트
+        - README 설치 가이드 개선
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: 🧾 작업 목록
+      description: 문서에 반영해야 할 내용을 체크리스트로 적어주세요.
+      value: |
+        예시:
+        - [ ] 엔드포인트 목록 업데이트
+        - [ ] 예시 응답 값 추가
+        - [ ] 사용 방법 섹션 보강
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: 🙋🏻 참고 자료
+      description: 참고할 문서나 링크가 있다면 작성해주세요.
+      value: |
+        예시:
+        - 기존 문서 링크
+        - 관련 API Swagger 주소

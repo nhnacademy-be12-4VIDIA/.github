@@ -1,0 +1,36 @@
+name: "❓ Question"
+description: "논의가 필요한 질문"
+title: "❓ Question: [파트명] ... 질문"
+labels: ["question"]
+body:
+  - type: textarea
+    attributes:
+      label: ❓ 질문 내용
+      description: 어떤 점이 궁금한지 또는 논의가 필요한 내용을 작성해주세요.
+      value: |
+        예시:
+        - API 응답 구조를 통일해야 할까요?
+        - 인증 토큰 만료 처리 방식 논의 필요
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: 🗣 의견 요청
+      description: 어떤 의견이 필요한지 명확히 작성해주세요.
+      value: |
+        예시:
+        - [ ] 구조 변경 가능 여부
+        - [ ] 일정 조율 필요
+        - [ ] 정책 결정 필요
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: 🙋🏻 참고 자료
+      description: 참고할 문서나 상황 설명이 있다면 작성해주세요.
+      value: |
+        예시:
+        - 관련 기능 흐름도
+        - 참고 스택오버플로우 링크

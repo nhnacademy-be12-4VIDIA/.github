@@ -1,0 +1,36 @@
+name: "🔧 Improve"
+description: "기능 개선"
+title: "🔧 Improve: [파트명] ... 기능 개선"
+labels: ["improvement"]
+body:
+  - type: textarea
+    attributes:
+      label: 📄 개선 목표
+      description: 어떤 부분을 어떻게 개선하고 싶은지 설명해주세요.
+      value: |
+        예시:
+        - API 응답 속도 개선
+        - UX 흐름 단순화
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: 🎯 개선 내용
+      description: 개선해야 하는 구체적인 항목을 적어주세요.
+      value: |
+        예시:
+        - [ ] 응답 데이터 구조 간소화
+        - [ ] 캐싱 전략 적용
+        - [ ] 불필요한 API 호출 제거
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: 🙋🏻 참고 자료
+      description: 참고 자료가 있다면 작성해 주세요.
+      value: |
+        예시:
+        - 성능 측정 로그
+        - 벤치마크 테스트 결과

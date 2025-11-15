@@ -1,0 +1,36 @@
+name: "🎨 UI/UX"
+description: "UI 및 UX 개선"
+title: "🎨 UI/UX: [파트명] ... UI/UX 개선"
+labels: ["uiux"]
+body:
+  - type: textarea
+    attributes:
+      label: 🎨 개요
+      description: 변경하거나 개선하고 싶은 UI/UX 내용을 작성해주세요.
+      value: |
+        예시:
+        - 버튼 배치 개선
+        - 사용자 흐름 단순화
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: 🎯 개선 목표
+      description: 목표하는 UX 개선 효과를 작성해주세요.
+      value: |
+        예시:
+        - [ ] 클릭 수 2회 감소
+        - [ ] 사용자 이해도 향상
+        - [ ] 접근성 개선
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: 🙋🏻 참고 자료
+      description: 참고 자료가 있다면 작성해주세요.
+      value: |
+        예시:
+        - 디자인 시안
+        - 프로토타입 링크

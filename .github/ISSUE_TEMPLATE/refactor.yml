@@ -1,0 +1,36 @@
+name: "♻️ Refactor"
+description: "코드 리팩터링"
+title: "♻️ Refactor: [파트명] ... 리팩터링"
+labels: ["refactor"]
+body:
+  - type: textarea
+    attributes:
+      label: 🔍 리팩터링 이유
+      description: 왜 리팩터링이 필요한지 설명해주세요.
+      value: |
+        예시:
+        - 코드 구조가 복잡해 유지보수가 어려움
+        - 중복 코드가 많음
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: 🛠 리팩터링 대상
+      description: 수정해야 하는 코드나 구조를 명시해주세요.
+      value: |
+        예시:
+        - [ ] 서비스 레이어 모듈화
+        - [ ] 네이밍 개선
+        - [ ] 중복 함수 제거
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: 🙋🏻 참고 자료
+      description: 참고 자료가 있다면 작성해 주세요.
+      value: |
+        예시:
+        - 기존 구조 다이어그램
+        - 코드 분석 결과

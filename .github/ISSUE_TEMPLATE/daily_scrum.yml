@@ -8,17 +8,18 @@ body:
       label: 📌 공지/공유 사항
       description: 팀 전체에 공유할 사항이 있으면 작성
       value: |
-        - 오늘 공유할 내용:
+        전체 공지사항:
+        - x
         
-  - type: textarea
-    attributes:
-      label: 이름
-      description: 어제 한 일, 오늘 할 일, 문제/이슈를 작성
-      value: |
+        ---
+        
+        > 복사해서 사용(comment)
+        ```
+        ### 이름
         - 어제 한 일:
-          - 
+          - x
         - 오늘 할 일:
-          - 
-        - 문제/이슈:
-          - 
-
+          - x
+        - 문제/이슈(선택):
+          - x
+        ```

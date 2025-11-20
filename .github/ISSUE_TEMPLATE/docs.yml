@@ -1,7 +1,7 @@
 name: "📝 Docs"
 description: "문서 작업"
 title: "📝 Docs: [파트명] ... 문서 작성"
-labels: ["docs"]
+labels: ["documentation"]
 body:
   - type: textarea
     attributes:

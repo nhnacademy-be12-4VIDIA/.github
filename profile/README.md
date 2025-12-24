@@ -6,7 +6,7 @@
 
 | 고나영 | 김영재 | 김성우 | 나우림 |
 |:---:|:---:|:---:|:---:|
-|<img width="150" src="https://avatars.githubusercontent.com/u/133228490?s=88&v=4"/>|<img width="150" src="https://avatars.githubusercontent.com/u/88365662?s=88&v=4"/>|<img width="150" src="https://avatars.githubusercontent.com/u/52788173?s=88&v=4"/>|<img width="150" src="https://avatars.githubusercontent.com/u/169413654?s=88&v=4"/>|
+|<img width="150" src="https://avatars.githubusercontent.com/u/133228490?s=88&v=4"/>|<img width="150" src="https://avatars.githubusercontent.com/u/88365662?v=4"/>|<img width="150" src="https://avatars.githubusercontent.com/u/52788173?s=88&v=4"/>|<img width="150" src="https://avatars.githubusercontent.com/u/169413654?s=88&v=4"/>|
 |  |  |  |  |
 |  |  |  |  | 
 
